@@ -41,5 +41,5 @@ def encode_tojson(tree):
 if __name__ == "__main__":
     gpus = encode_tojson(getgpustate())
     for gpu in gpus:
-        print gpu
-        print len(gpu['Process'])
+        print(gpu)
+        print(len(gpu['Process']))
